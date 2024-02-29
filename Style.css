@@ -1,0 +1,31 @@
+
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+h1{
+    color: red;
+}
+#div-multimedia{
+    /* Este es un comentario en CSS 
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+    */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#div-head{
+    display: flex;
+    flex-direction:row-reverse;
+}
+#div-info{
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: grid;
+    text-align: center;
+}
+
